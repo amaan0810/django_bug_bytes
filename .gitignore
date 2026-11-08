@@ -1,1 +1,32 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / environment variables
+.env
+.env.*
+!.env.example
+
+# Local database
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+
+# Django
+/media/
+staticfiles/
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Tool files
 .mcp.json
+.playwright-mcp/
