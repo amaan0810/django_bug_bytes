@@ -1,0 +1,23 @@
+[project]
+name = "04-django-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "amaan0810", email = "amaan.ansari2080@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "django>=6.1.3",
+    "django-admin>=2.0.2",
+]
+
+[project.scripts]
+04-django-tutorial = "_04_django_tutorial:main"
+
+[tool.uv.build-backend]
+module-name = "_04_django_tutorial"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
