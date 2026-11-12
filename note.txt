@@ -1,0 +1,5 @@
+Django URLs (named/reverse/namespaces) ·
+' Context processors ·'
+ AJAX & CSRF tokens ·
+  Model validators / ModelForms ·
+   Media files · Whitenoise

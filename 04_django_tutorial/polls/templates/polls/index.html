@@ -10,3 +10,10 @@
     <p>No polls are available.</p>
 {% endif%}
 
+{% if numbers%}
+    <p>numbers</p>
+    {% for x in numbers%}
+        <p> {{x}}</p>
+    {% endfor %}
+
+{% endif %}
