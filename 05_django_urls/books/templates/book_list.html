@@ -1,0 +1,12 @@
+{% include 'base.html' %}
+
+{% block content %}
+<p> Book list</p>
+<ul>
+    {% for book in books%}
+        <li> <a href="{{book.get_absolute_url}}">{{book.name}} </a> </li>
+    {%endfor%}
+</ul>
+
+{% endblock %}
+
